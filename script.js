@@ -5,21 +5,42 @@
  en los números que sean múltiplos de 3 y de 5 se imprimirá FizzBuzz.*/
  
 
+//for
+// function pintaSecuencia(){
+//     for (let i=1; i<=1000; i++){
+//         console.log(i);
 
- function pintaSecuencia(){
-    for (let i=1; i<=1000; i++){
-        console.log(i);
+//         if (i %3 == 0 && i %5 == 0){
+//             console.log("FizzBuzz");
+//         } else if (i %5 == 0){
+//             console.log("Buzz");
+//         } else if(i %3 == 0){
+//             console.log("Fizz");
+//         } else {
+//             console.log(i);
+//         }
+//     }
+    
+//  }
+//  pintaSecuencia();
+//  console.log(pintaSecuencia());
 
+
+ //while
+ function pintaSecuencia2(){
+    let i=1;
+    while (i<=1000){
 
         if (i %3 == 0 && i %5 == 0){
-            console.log("FizzBuzz") ;
+            console.log("FizzBuzz");
         } else if (i %5 == 0){
-            console.log("Buzz") ;
-        } else if (i %3 == 0){
-            console.log("Fizz") ;
+            console.log("Buzz");
+        } else if(i %3 == 0){
+            console.log("Fizz");
+        } else {
+            console.log(i);
         }
+        i++;
     }
-    
  }
- pintaSecuencia();
- console.log(pintaSecuencia());
+ pintaSecuencia2();
